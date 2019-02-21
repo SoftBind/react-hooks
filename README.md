@@ -9,3 +9,4 @@ A set of reusable [React Hooks](https://reactjs.org/docs/hooks-reference.html).
 ### [useMeasure(ref, types)](https://github.com/SoftBind/react-hooks/tree/master/packages/useMeasure)
 ### [useIdle(opt)](https://github.com/SoftBind/react-hooks/tree/master/packages/useIdle)
 ### [useTitle(text)](https://github.com/SoftBind/react-hooks/tree/master/packages/useTitle)
+### [useFetch(url, opt)](https://github.com/SoftBind/react-hooks/tree/master/packages/useFetch)
