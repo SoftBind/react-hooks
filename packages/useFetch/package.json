@@ -1,0 +1,40 @@
+{
+  "name": "@softbind/hook-use-fetch",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle"
+  },
+  "author": "Sebastian Sobociński <sebastian@soft-bind.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/SoftBind/react-hooks/tree/master/packages/useFetch",
+  "keywords": [
+    "react",
+    "hooks",
+    "fetch",
+    "async",
+    "request",
+    "cancellable"
+  ],
+  "bugs": {
+    "url": "https://github.com/SoftBind/react-hooks/issues"
+  },
+  "homepage": "https://github.com/SoftBind/react-hooks/tree/master/packages/useFetch#readme"
+}

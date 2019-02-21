@@ -1,0 +1,28 @@
+{
+  "name": "softbind",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Collection of react hooks",
+  "main": "dist/react-hooks.js",
+  "umd:main": "dist/react-hooks.umd.js",
+  "module": "dist/react-hooks.mjs",
+  "source": "src/index.js",
+  "devDependencies": {
+    "lerna": "^3.13.0"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "prebuild": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftBind/react-hooks.git"
+  },
+  "keywords": ["react", "hooks"],
+  "author": "Sebastian Sobociński <sebastian@soft-bind.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftBind/react-hooks/issues"
+  },
+  "homepage": "https://github.com/SoftBind/react-hooks#readme"
+}
